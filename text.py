@@ -44,5 +44,14 @@ if 5 > 2:
     
     x = "awesome"
     def myfunc():
-     print("python is " + x)
+        print("python is " + x) # type: ignore
     myfunc()
+# python Casting
+
+x = int(1) # x will be 1
+y = int(2.8) # y will be 2
+z = int("3") # z will be 3
+
+print(x)
+print(y)
+print(z)
